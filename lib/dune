@@ -1,0 +1,4 @@
+(library
+ (name ether)
+ (foreign_stubs (language c) (names sockets_stubs))
+ (libraries unix str ANSITerminal))
